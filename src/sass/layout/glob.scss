@@ -1,0 +1,11 @@
+/*
+AVISO
+
+para alterar o grid sem bug precisa primeiro altera o grid do body depois do main e depois da section por 
+exemplo ou altera o grid do body depois do footer siga a hierarquia e tambem cada elemento tem seu tamanho
+definido então após alteração verificar os tamanhos
+*/
+
+@import "./_body";
+@import "./_footer";
+@import "./_main";

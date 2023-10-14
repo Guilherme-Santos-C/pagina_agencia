@@ -1,0 +1,7 @@
+body {
+    display: grid;
+    grid-template-rows: 278vh 30vh; // 278vh para o main , 30vh para o footer
+    grid-template-columns: 100vw;
+    overflow: hidden;
+    background-color: #000;
+}
