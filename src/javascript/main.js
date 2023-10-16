@@ -1,3 +1,4 @@
+"use strict";
 
 /**
  * ao passar o mouse sobre o item da lista modifica as classes aplicando uma borda com animação 
