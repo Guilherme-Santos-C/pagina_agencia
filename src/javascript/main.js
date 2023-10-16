@@ -19,13 +19,13 @@ item_lista_nav_header.forEach((item_lista) => {
  * altera a exposição da barra de tarefas alterando as classes a apartir da rolagem da tela
  */
 const navbar = document.getElementsByTagName("header")[0];
+const background_border_navbar = document.getElementsByClassName("background-border-header")[0];
 document.addEventListener("scroll", () => {
     if(window.scrollY > 100){
-        navbar.classList.remove("header-onTop")
+        console.log("rolou")
         navbar.classList.add("header-offTop")
     }else{
         navbar.classList.remove("header-offTop")
-        navbar.classList.add("header-onTop")
     }
 });
 
