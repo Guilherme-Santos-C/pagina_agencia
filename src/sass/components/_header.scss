@@ -1,13 +1,19 @@
 header {
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 4rem 0 3rem;
-    height: 12.8vh;
-    width: 99.7vw;
+    height: 13vh;
+    width: 100vw;
     transition: all 0.7s ease-out;
-    background-color: $color-secondary;
+    background-color: transparent;
     border-radius: 0 0 1.5rem 1.5rem;
+    border: 1px solid #393939;
+    &.header-offTop{
+    height: 9vh;
+    }
     .div-logo-header{
         width: 10%;
         height: 75%;
